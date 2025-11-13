@@ -1,7 +1,7 @@
 # Real-time Undo/Redo System using Stack
 
 class TextEditor:
-    def _init_(self):
+    def __init__(self):
         self.undo_stack = []
         self.redo_stack = []
         self.text = ""
