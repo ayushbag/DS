@@ -3,7 +3,7 @@
 from collections import deque
 
 class EventQueue:
-    def _init_(self):
+    def __init__(self):
         self.queue = deque()
 
     def add_event(self, event):
