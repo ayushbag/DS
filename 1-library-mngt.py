@@ -1,7 +1,7 @@
 # 📘 Library Borrowing Records Management
 
 class Library:
-    def _init_(self):
+    def __init__(self):
         self.records = {}  # {member_name: no_of_books_borrowed}
         self.book_borrow_count = {}  # {book_name: borrow_count}
 
